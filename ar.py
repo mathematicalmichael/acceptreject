@@ -1,6 +1,6 @@
 import random
 
-def acceptreject(p):
+def ar(p):
     """
     Perform accept/reject.
     
