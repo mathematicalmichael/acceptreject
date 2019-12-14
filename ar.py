@@ -1,6 +1,6 @@
 import random
 
-def ar(p):
+def ar(probabilities):
     """
     Perform accept/reject.
     
@@ -15,4 +15,5 @@ def ar(p):
         list of accepted indices into original vector
     
     """
+    p = probabilities/max(probabilities)
     return [i for i in range(len(p)) if random.random() < p[i]]
