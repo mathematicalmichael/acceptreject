@@ -15,4 +15,4 @@ def acceptreject(p):
         list of accepted indices into original vector
     
     """
-    return [i for i in range(len(p)) if random.rand() < p[i]]
+    return [i for i in range(len(p)) if random.random() < p[i]]
