@@ -6,12 +6,12 @@ def ar(probabilities):
     
     Params
     ------
-    p: list-like
+    probabilities: list-like
         vector of probabilities
     
     Returns
     -------
-    indicies: list
+    indices: list
         list of accepted indices into original vector
     
     """
